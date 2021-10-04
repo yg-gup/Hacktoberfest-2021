@@ -1,0 +1,7 @@
+Algorithm: 
+create an Min heap to store k elements, one from each array and a variable minrange initialized to a maximum value and also keep a variable max to store the maximum integer.
+Initially put the first element of each element from each list and store the maximum value in max.
+Repeat the following steps until atleast one list exhausts : 
+To find the minimum value or min, use the top or root of the Min heap which is the minimum element.
+Now update the minrange if current (max-min) is less than minrange.
+remove the top or root element from priority queue and insert the next element from the list which contains the min element and update the max with the new element inserted.
