@@ -1,0 +1,78 @@
+Why is Parse Server the future of Backend As A Service?
+Difficulty Level : Medium
+Last Updated : 07 Feb, 2018
+Read
+Discuss
+
+Are you a developer?  Have you ever coded your way through a web or a mobile application that is really cool and scalable? Being an amateur or a pro is irrelevant in this context. If your answer to the first question is “Yes”, then this article is just for you. Go ahead and read what I have got to say.
+Have you heard of the term, “Parse Server”? Even if you haven’t, being a developer, Parse Server is worthy of your time and interest. Before I jump into the technicalities of how Parse Server is going to ace the future of backend as a service (BaaS), let us try to understand what exactly BaaS is.
+
+Understanding Backend as a Service
+
+What’s BaaS : Backend as a service (also known as MBaaS, i.e. Mobile Backend as a Service) is a way for providing the web and mobile developers with a comprehensive technique for connecting the application to the backend cloud storage and APIs while providing features such as user management and authentication, push notifications, social networking integration, and data analytics.
+The Web and mobile applications need a set of features at the backend for their smooth functioning. Developing the backend is a time-consuming process and needs the expertise to handle the associated complexities of incorporating various APIs. In such a situation, BaaS providers come into play. BaaS bridges the gap between the frontend of the app and various cloud based backends via a single API and SDK. BaaS enables you to manage a centralized database that lets your users share content via the cloud. Thus, it helps you to focus on the frontend and the design of your product to appeal to your customers while ignoring the tedious backend development.
+In a nutshell, if you know basic HTML and CSS, you can build a web application as you don’t have to worry about developing the backend of your product.
+BaaS follows the paradigm of ‘API first’ where the API is developed in the beginning and it acts as a base for the development of other mobile platforms.
+
+Future Scope : Although being a fairly young industry with all BaaS start-ups not older than six years, development trends indicate that BaaS is blooming in the developers’ community. According to a business strategy and market intelligence company, Global Industry Analysts Inc., “the global market for Backend-as-a-Service (BaaS) is projected to reach USD 31.6 billion by 2020, driven by the rise of app driven economies worldwide and the ensuing indispensability of mobile applications in the creation of economic value”.
+Now, since you have got to know that backend as a service is going to be the future of the web and mobile development, let me introduce you to the pioneer of BaaS- Parse Server.
+
+Parse Server- An Introduction
+
+Every application developed today stores data and provides a certain set of services to the users. All account details and related data needs to be stored somewhere on the internet to be communicated with the users of the application. For this purpose, a complementary server side application is needed.
+Before the introduction of Parse, developers had to build their own individual backend for all their applications. The process was hefty, time-consuming and required expertise across various disciplines including server-side development, network maintenance, designing, front end development and scaling, thus making it very difficult for a developer to build a product single-handedly. Even if the product was developed, dynamic scaling was a huge challenge. All this made the development process quite difficult and uninteresting.
+And, then Parse came into the development arena as a blessing for the developers’ community and the rest is history. The sole purpose of Parse was to demystify the process of backend development.
+Launched in February 2016, Parse Server is an open source version of Parse (MBaaS platform) which was originally developed by Parse Inc. It can be deployed to any infrastructure that can run node.js.
+
+A Closer Look Into The Highly Robust System of Parse Server
+
+Parse has evolved into a new dimension under the name Parse Server where more facilities have been implemented which was not possible with Parse. With Parse server being open source, a great number of developers from all across the globe are contributing to the betterment of the server. The best thing about Parse Server is that the applications being developed can be hosted locally. Also, the database platform and the file storage systems can be decided by the user. Parse Server can be hosted globally, thus increasing its outreach to more number of people.
+Below is a chart denoting the benefits of the most popular backend framework, Parse Server as compared to its previous version, Parse.
+
+In spite of a number of shortcomings that Parse has overcome as a highly robust version, Parse Server, there are some minor issues that have come up with the new product. “Choosing is a baffling ordeal.” And, with more number of options for database and file storage systems, a sense of confusion creeps in. Moreover, using different platforms is costly and managing them is another hectic task.
+The deployment of the apps on Parse Server is complicated. To deploy an app, we need to configure the Parse Server and database server and then these two servers must be hosted in a PaaS or IaaS.
+Also, Parse Server lacks a dedicated internal dashboard. Recently, an open source internal dashboard was launched, yet it requires a lot of work.
+With such issues, we need to find an alternative where we get the benefits of easy deployment and a dedicated internal dashboard added to the newly introduced features of Parse Server (like, livequery), an alternative that uses this serverless technology as its backend framework and is scalable.
+
+How to use Parse Server
+
+The efficiencies of Parse Server can be harnessed in one of the two ways:
+
+a) Self-hosting at AWS, Azure, Digital Ocean, etc.
+b) Use a Parse Server hosting service like Back4App, Firebase, etc.
+
+With Self Hosting, apart from the deployment issue, the biggest problem is with the scaling of the app. As the number of users on your application increase, you will start facing performance and reliability issues, since Parse Server can correctly handle apps only up to a certain size.
+because Parse Server was designed to allow developers to migrate their applications to other hosting providers.
+Fortunately, we have some vendors providing Parse Server hosting service which can host parse applications, providing migration alternatives. Using these services, we, as developers, can reap the benefits of both – Parse and Parse Server.
+
+Parse Server Hosting Services
+
+Some of the most widely used Parse Server hosting services are:
+
+Back4App: Back4App is one of the finest and the most popular alternatives for Parse among developers community. It’s an easy way to build, host and manage apps using the open source Parse Server. Based on the highly efficient open source backend framework, Parse Server, Back4App has several rich functionalities:
+Featured Parse Server: Back4App uses Parse Server as a core product as it is the finest framework for backend development which can help developers save precious time building an app.
+Boosted Server Performance: It supports a smart database index, queries optimizers, auto-scaling, automated backups and redundant storage capacity.
+Easy Deployment: Back4app is a ready-to-go platform. You can set up your app in less than 5 minutes.
+Real time database and analytics: It provides real time data storage and synchronization. Real time analytics is a key feature.
+Within your budget: Predictable pricing, transparent and easy-to-budget.
+Great technical support team: The engineer support of Back4App is always available to help its users.
+Firebase: Firebase can be considered as a good alternative for Parse. It is built on Google infrastructure, not on the dedicated Parse Server. It mainly focuses on the application and database hosting. Key features are:
+Real time database: Store and sync app data quickly
+Authentication: Authenticate users securely
+Cloud Storage: Store and serve files at Google scale
+Performance Monitoring: Provides insight into your app’s performance
+Google Analytics: Free and unlimited app analytics
+A major disadvantage of Firebase is that adding cloud code is quite difficult.
+
+Kinvey: Kinvey is a good mobile backend as a service provider and certainly worth a look for being a Parse alternative. Like Parse, they offer a generous free tier, push notifications and analytics. Key features are:
+Instant-on platform: No delay in getting your project started.
+Scalability: Scalable services to meet high user adoption and app usage requirements.
+No cloud lock-in: Runs on any cloud to meet your global deployment needs.
+The reason why Back4App is the best alternative for Parse is that it is a Parse Server hosting solution where the functionalities are almost similar to what you may have used for Parse. Also, there is no vendor lock-in issue in Back4App.
+
+With top-class and renowned Parse alternatives like Back4App and contributions from developers all across the globe, Parse Server is bound to be the future of backend as a service.
+Whatever product you are trying to come up with, whatever problem you are trying to solve, Parse Server will definitely save you from the unwanted burden of developing a backend. Hope after this, you will consider evaluating Parse Server for your next project.
+This article is contributed by HIMANSHU KUMAR. If you like GeeksforGeeks and would like to contribute, you can also write an article using contribute.geeksforgeeks.org or mail your article to contribute@geeksforgeeks.org. See your article appearing on the GeeksforGeeks main page and help other Geeks.
+
+Please write comments if you find anything incorrect, or you want to share more information about the topic discussed above.
+
