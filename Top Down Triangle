@@ -1,0 +1,55 @@
+A triangle with one of its angle 90° is called right triangle. We shall now see how to print stars *, in right triangle shape, but upside down on y axis.
+
+Algorithm
+Algorithm should look like this −
+
+Step 1 - Take number of rows to be printed, n.
+Step 2 - Make outer iteration I for n times to print rows
+Step 3 - Make inner iteration for J to I
+Step 3 - Print "*" (star)
+Step 4 - Print NEWLINE character after each inner iteration
+Step 5 - Return
+Pseudocode
+We can derive a pseudocode for the above mentioned algorithm, as follows −
+
+procedure topdown_triangle
+
+   FOR I = 1 to N DO
+      FOR J = 1 to I DO
+         PRINT "*" 
+      END FOR
+      PRINT NEWLINE
+   END FOR
+
+end procedure
+Implementation
+Implementation of right triangle in C is as follows −
+
+ Live Demo
+#include <stdio.h>
+
+int main() {
+   int n,i,j;
+
+   n = 5;
+
+   for(i = 0; i < n; i++) {
+      for(j = 0; j<i; j++)
+         printf("  "); 
+
+      for(j = i; j < n; j++)
+         printf(" *");
+
+      printf("\n");
+      
+   }
+   
+   return 0;
+}
+The output should look like this −
+
+ * * * * *
+   * * * *
+     * * *
+       * *
+         *
