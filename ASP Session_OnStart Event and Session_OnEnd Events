@@ -1,0 +1,61 @@
+ASP Session_OnStart Event and Session_OnEnd Events
+Last Updated : 02 Mar, 2021
+Read
+Discuss
+
+The ASP Session_OnStart Event occurs when the session starts. It occurs when the server creates a session Object. This event is taken place in the Global.asa File.
+
+The ASP Session_OnEnd Event occurs when the session ends or closed. It occurs when the abandoned method is call and when the session Timeout period is over. This event is taken place on the Global.asa File.
+
+Syntax:
+
+<SCRIPT LANGUAGE=ScriptLanguage RUNAT=Server>
+Sub Session_OnStart
+. . .  
+End Sub
+</SCRIPT>
+Parameter Values:
+
+ScriptLanguage: It defines the Language of the script which is used to write an event script. It supported different scripting languages, such as VBScript or JScript.
+Example: Below code used to display the number of visitors in an ASP File.
+
+<script language="vbscript" runat="server">
+  
+Sub Application_OnEnd()
+Application("totvisitors")=Application("visitors")
+End Sub
+  
+Sub Application_OnStart
+Application("visitors")=0
+End Sub
+  
+Sub Session_OnStart
+Application.Lock
+Application("visitors")=Application("visitors")+1
+Application.UnLock
+End Sub
+  
+Sub Session_OnEnd
+Application.Lock
+Application("visitors")=Application("visitors")-1
+Application.UnLock
+End Sub
+  
+</script>
+<html>
+<head>
+</head>
+<body>
+  
+<p>
+There are <%response.write(Application("visitors"))%>
+online now!
+</p>
+  
+</body>
+</html>
+Output:
+
+There are online now!
+
+
