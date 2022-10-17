@@ -1,0 +1,53 @@
+Frontend vs Backend
+Difficulty Level : Easy
+Last Updated : 02 Aug, 2022
+Read
+Discuss
+
+Frontend and Backend are the two most popular terms used in web development. These terms are very crucial for web development but are quite different from each other. Each side needs to communicate and operate effectively with the other as a single unit to improve the website’s functionality. 
+
+
+
+Front End Development
+The part of a website that the user interacts with directly is termed the front end. It is also referred to as the ‘client side’ of the application. It includes everything that users experience directly: text colors and styles, images, graphs and tables, buttons, colors, and a navigation menu. HTML, CSS, and JavaScript are the languages used for Front End development. The structure, design, behavior, and content of everything seen on browser screens when websites, web applications, or mobile apps are opened up, is implemented by Front End developers. Responsiveness and performance are two main objectives of the Front End. The developer must ensure that the site is responsive i.e. it appears correctly on devices of all sizes no part of the website should behave abnormally irrespective of the size of the screen. 
+
+Front End Languages
+The front end portion is built by using some languages which are discussed below: 
+
+HTML: HTML stands for Hypertext Markup Language. It is used to design the front-end portion of web pages using a markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between web pages. The markup language is used to define the text documentation within the tag which defines the structure of web pages. You can learn this language with Geeksforgeeks Advanced HTML – Self-Paced course and master the concepts of advanced HTML. 
+CSS: Cascading Style Sheets fondly referred to as CSS is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independent of the HTML that makes up each web page. Also, if you want to enhance your skills then enroll in Geeksforgeeks CSS Foundation – Self-Paced course and learn all new concepts of CSS.
+JavaScript: JavaScript is a famous scripting language used to create magic on sites to make the site interactive for the user. It is used to enhance the functionality of a website to run cool games and web-based software. Applicable in both front-end and back-end, Javascript is a key to becoming a good developer. So start your web-development journey with Geeksforgeeks JavaScript Foundation – Self-Paced course today. 
+There are many other languages through which one can do front-end development depending upon the framework for example Flutter user Dart, React uses JavaScript and Django uses Python, and much more.
+
+Front End Frameworks and Libraries: 
+AngularJS: AngularJs is a JavaScript open-source front-end framework that is mainly used to develop single-page web applications(SPAs). It is a continuously growing and expanding framework which provides better ways for developing web applications. It changes the static HTML to dynamic HTML. It is an open-source project which can be free. It extends HTML attributes with Directives, and data is bound with HTML.
+React.js: React is a declarative, efficient, and flexible JavaScript library for building user interfaces. ReactJS is an open-source, component-based front-end library responsible only for the view layer of the application. It is maintained by Facebook. Moreover, React Js makes Front-end development very easy. You can now develop industry-ready Web Applications by enrolling in Geeksforgeeks React JS (Basic to Advanced) – Self-Paced course. 
+Bootstrap: Bootstrap is a free and open-source tool collection for creating responsive websites and web applications. It is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.
+jQuery: jQuery is an open-source JavaScript library that simplifies the interactions between an HTML/CSS document, or more precisely the Document Object Model (DOM), and JavaScript. Elaborating the terms, jQuery simplifies HTML document traversing and manipulation, browser event handling, DOM animations, Ajax interactions, and cross-browser JavaScript development.
+SASS: It is the most reliable, mature, and robust CSS extension language. It is used to extend the functionality of an existing CSS of a site including everything from variables, inheritance, and nesting with ease.
+Flutter: Flutter is an open-source UI development SDK managed by google. It is powered by the Dart programming language. It builds performant and good-looking natively compiled applications for mobile (Ios, Android), web, and desktop from a single code base. The key selling point of flutter is flat development is made easier, expressive, and flexible with UI and native performance. In march 2021 flutter announce Flutter 2 which upgrades flutter to build release applications for the web, and the desktop is in beta state.
+Some other libraries and frameworks are Semantic-UI, Foundation, Materialize, Backbone.js, Ember.js, etc.
+Back End Development
+The backend is the server-side of the website. It stores and arranges data, and also makes sure everything on the client-side of the website works fine. It is the part of the website that you cannot see and interact with. It is the portion of software that does not come in direct contact with the users. The parts and characteristics developed by backend designers are indirectly accessed by users through a front-end application. Activities, like writing APIs, creating libraries, and working with system components without user interfaces or even systems of scientific programming, are also included in the backend. 
+
+Back End Languages
+The back-end portion is built by using some languages which are discussed below: 
+
+PHP: PHP is a server-side scripting language designed specifically for web development. Since PHP code is executed on the server-side, so it is called a server-side scripting language.
+C++: It is a general-purpose programming language and is widely used nowadays for competitive programming. It is also used as a backend language. So if you are curious about learning Java then you can take help from Geeksforgeeks C++ Programming Foundation – Self-Paced course and learn all the basics of the language without hassle. 
+Java: Java is one of the most popular and widely used programming languages and platforms. It is highly scalable. Java components are easily available and for learning this one of the most popular languages you can check the Geeksforgeeks Java Programming Foundation – Self-Paced course. It will help you understand the proper framework, concepts, functions, and more. 
+Python: Python is a programming language that lets you work quickly and integrate systems more efficiently. It is also a very important language for the back end and for mastering it you can take a look at Python Programming Foundation -Self-Paced course. This is a beginner-friendly course and will help you to build a strong foundation for python.
+Node.js: Node.js is an open-source and cross-platform runtime environment for executing JavaScript code outside a browser. You need to remember that NodeJS is not a framework, and it’s not a programming language. Most people are confused and understand it’s a framework or a programming language. We often use Node.js for building back-end services like APIs like Web App or Mobile App. It’s used in production by large companies such as Paypal, Uber, Netflix, Walmart, and so on.
+Back End Frameworks: 
+Express – Express is a Nodejs framework used for backend/server-side development. It is used to build single-page, multi-page, and hybrid web applications. With its help, you can handle multiple different HTTP requests. 
+Django – Django is a Python web-based framework, following the model-template-views pattern. It is used to build large and complex web applications. Its features include being fast, secure, and scalable.
+Ruby on Rails – Ruby on Rails is a server-side framework following the model-view-controller architecture pattern. It provides default structures such as web service, web pages, and databases. 
+Laravel – Laravel is a web application framework for PHP and is robust. The feature which makes it perfect is reusing the components of different frameworks for creating a web application. 
+Spring – This server-side framework provides infrastructure support for Java applications. It acts as a support to various frameworks like Hibernate, Struts, EJB, etc. It also has extensions that help in developing Java applications quickly and easily. 
+Some more back-end programming/scripting languages are C#, Ruby, GO, etc.
+Difference between Frontend and Backend: 
+Frontend and backend development are quite different from each other, but still, they are two aspects of the same situation. The front-end is what users see and interact with and the backend is how everything works. 
+
+The front-end is the part of the website users can see and interact with such as the graphical user interface (GUI) and the command line including the design, navigating menus, texts, images, videos, etc. The backend, on the contrary, is the part of the website users cannot see and interact with.
+The visual aspects of the website that can be seen and experienced by users are frontend. On the other hand, everything that happens in the background can be attributed to the backend.
+Languages used for the front end are HTML, CSS, and JavaScript while those used for the backend include Java, Ruby, Python, and .Net.
