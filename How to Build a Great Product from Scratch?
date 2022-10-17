@@ -1,0 +1,76 @@
+How to Build a Great Product from Scratch?
+Difficulty Level : Medium
+Last Updated : 06 Sep, 2021
+Read
+Discuss
+
+All of us have great ideas, about which we think that if implemented, can turn into really successful products in the future. So this article will help you how to proceed with your idea and implement it to its full potential.
+
+How-to-Build-a-Great-Product-from-Scratch
+
+First, think about what problem your idea solves. It may be that you want to make another entertainment app but how it would be different and more importantly what problem it solves which exists in other apps. Is it just UI or something more and new? Identify the core of your idea and stick to that. 
+
+Next, make a feature list. A feature list you would provide in your first draft. And be careful in this! We always overburden us with a lot of features that aren’t really necessary, just add vital elements to your app which are just enough to solve the problem. 
+
+Extra features should be added only if you have a basic prototype and people are using the app. This helps in two ways: motivate you to add more features, and keeps your product active for a longer period of time. We would talk about the activeness of a product in upcoming sections.
+
+Now you have thought about the problem, it’s time to search for existing solutions to the problem. In most cases, you would encounter something similar already, but now, here is the tricky case. There can be two things, your idea is being implemented by a big whale(A big MNC or a very famous site) or is on starting steps. 
+
+Don’t get disheartened by any of the cases. In the case of a big MNC, try to redesign your approach and think of a better approach but in the case of a small site, just try to identify their features that can be added to your site. 
+
+You are done with the research now, and here is the biggest turn, the implementation. It depends on your technical skills. We suggest you use quick fixes for faster implementation.
+
+Building the User Interface
+This can be really frustrating for some and interesting for others, depends just on you. So, if you love making the UI interesting, you can use these tools to improve your frontend:
+
+Note: Only use these tools if you are really into frontend development and enjoy it.
+
+FIGMA: A great tool for prototyping and making SVGs and even animating them
+UNDRAW: This is a pool of free illustrations that you can use to have some really cool effects.
+CSS Labs: If you want some fancy and cool components into your app, you can use this site to get their CSS.
+Codepen and CSS Tricks: These two sites provide awesome CSS snippets and frontend techniques, but be cautious, many transitions on one-page may slow down your app.
+Implementing the User Interface
+After having a design either of FIGMA or just pen and paper, here are some real tips that can be very useful:
+
+Avoid making a server, try to store data in local storage if it’s not necessary to have a server and database setup as it would make implementation much faster, and you don’t have to worry about limits.
+Use Firebase to store your data: Firebase has easy client-side integration and firestore makes data management much easier.
+Use ReactJS (In the case of the web): This is one of my biggest mistakes. Generally, we made big projects on HTML, CSS which works fine even on a larger audience, but the code is really messed up, and it’s hard to add more functionalities. ReactJS provides much cleaner code, and it is a perfect skill to have. But before jumping to ReactJS, You must be familiar with Vanilla JavaScript. It would help you make quick projects.
+Always have a report a feature option and a feedback form: It’s really easy to integrate a Google form onto your app, so please, do have a feedback form as I, as a user, won’t be just finding your contact number and telling you the error.
+Always add Google Analytics: Add Google Analytics to your site, this really helps you judge your product and make it better with time.
+Building The Backend
+Backend development is quite exciting as well as confusing also! First, have a mind map of the schemas you would require. When you’re working on the database design always think of optimizations! Think of how you can make the schema in order to minimize the number of calling operations you would have to do. 
+
+Here are some quick tips for making your schemas more optimized in long run:
+
+Avoid dynamic documents: If your schema allows documents that grow in size continuously, then perhaps you should avoid this. MongoDB and Firebase have their limits on a specific document and over a period of time, if you have a document that can grow continuously, then you are likely to go short of the limit.
+Identify your operations: Identity which operations your application would require more and optimize accordingly. For example, If you are making a Social Media Application, then you would have heavy usage of reads compared to write. So, you should modify your schema accordingly.
+Don’t read or write large chunks of data: To avoid this, always use field modifiers and update only the required fields instead of the whole document.
+Once you are done with the schema designing, you can now use any SQL or NoSQL database. This is completely your choice but here is a quick comparison. The main advantage of a NoSQL database is that it saves a lot of memory in long run! But the disadvantage of using a NoSQL database is that it doesn’t support ACID (atomicity, consistency, isolation, durability) transactions across multiple documents.
+
+Now, here is a quick comparison between Firebase and MongoDB. Both of them are NoSQL databases and we would suggest you use Firebase if you don’t want to have a server. But it is very less secure than MongoDB as you have to expose your API keys on the client-side. See this if you wish to make your Firebase account more secure. But despite this, if you have a server, then you should definitely go for MongoDB.
+
+Creating and Hosting Your Server 
+Here are few quick tips to have in mind while creating and hosting your server:
+
+Using custom domain names: If you are a student, you get a lot of free resources from GitHub Student Developer Pack including domain names. You can probably use one of them to give your site a professional look.
+Using AWS or Heroku: Heroku is way simpler to use than AWS Elastic Compute Cloud. Perhaps it’s even too simple. But there’s a good reason for this simplicity. This platform equips us with a ready runtime environment and application servers. Here is a detailed blog for a quick comparison.
+Publishing to the Real World!
+Now, we are assuming that you are done with your prototype, or backend and frontend development part. Now it’s time for your grand release! 
+
+Below are some platforms that you can use to have a good audience:
+
+Linkedin
+Reddit
+Twitter
+Product Hunt
+IndieHackers
+MakerLog
+FaceBook
+Instagram
+Also, try to win a hackathon with your product. It’s even better to showoff and sometimes, you may get investors and proper guidance too. And if you are a student, and have a college email id, get GitHub Student Developer Pack, and add custom domains for free!
+
+Keeping Your Product Active in the Market
+As discussed above, slowly add features to your site and update your users about it, either by posting it on the above-mentioned platforms or by sending emails to your users about the latest updates. This can be a little hectic, but it would definitely help your product in long run and maintain its charm.
+
+So, this was all, and you are ready to build a real-life project which can be turned into a big product sometime in the future!
+
