@@ -1,0 +1,10 @@
+The <canvas> element is perfect for making games in HTML.
+
+The <canvas> element offers all the functionality you need for making games.
+
+Use JavaScript to draw, write, insert images, and more, onto the <canvas>.
+
+.getContext("2d")
+The <canvas> element has a built-in object, called the getContext("2d") object, with methods and properties for drawing.
+
+You can learn more about the <canvas> element, and the getContext("2d") object, in our Canvas Tutorial.
