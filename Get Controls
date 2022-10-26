@@ -1,0 +1,9 @@
+Now we want to control the red square.
+
+Add four buttons, up, down, left, and right.
+
+Write a function for each button to move the component in the selected direction.
+
+Make two new properties in the component constructor, and call them speedX and speedY. These properties are being used as speed indicators.
+
+Add a function in the component constructor, called newPos(), which uses the speedX and speedY properties to change the component's position.
